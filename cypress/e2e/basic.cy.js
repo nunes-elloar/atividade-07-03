@@ -28,6 +28,6 @@ describe.only("Escrevendo nos campos do formulário", () => {
 
         cy.get('[data-test="dataEscolaridade"]').
 
-        cy.get('select').select('[value="futebol"]')   
+    
     })
 })

@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(136, 101, 68);
+    background: radial-gradient(rgb(136, 101, 68), rgb(151, 111, 73) );
+}
+.container{
+    background-color:rgb(199, 174, 151) ;
+    width: 25vw;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    align-content: center;
+    position: relative;
+    border-radius: 5px;
+    left: 70vb;
+    top: 20vb;
+    gap: 10px;
+    background: radial-gradient(rgb(199,174,151), rgb(151, 111, 73));
+    
+}
+input{
+    width: 20vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+button{
+    width: 10vw;
+    height: 3vh;
+    border-radius: 5px;
+    border: 1px solid black;
+
+}
